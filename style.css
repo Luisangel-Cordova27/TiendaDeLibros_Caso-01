@@ -1,0 +1,43 @@
+.contenedor-encabezado{
+    height: 133px;
+    width: 100%;
+    margin: 0;
+}
+
+.franja{
+    height: 38px;
+    width: 100%;
+    background-color:black;
+}
+
+.logo-header{
+    height: 71px;
+    width: 62px;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px;
+    border-color: lightgrey;
+}
+
+nav li{
+    display: inline;
+    margin: 0 15px;
+}
+
+.mainInfo-homepage{
+    width: 100%;
+    height: 436px;
+}
+.contenedor-eslogan{
+    width: 557px;
+    height: 110px;
+    border-style: double;
+    text-align: center;
+    padding-top: 174px;
+}
