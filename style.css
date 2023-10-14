@@ -188,66 +188,169 @@ form label, form legend{
     margin: 0 0 10px;
 }
 
-/*Estilos utilizados para categorias y estadisticas- Hecho por Eden*/
-.Categorias{
-    font-size: 50px;
+.titulo-carrito{
+    font-size: 50PX; 
     font-weight: bold;
-    font-style:italic;
+    padding: 50px 30px;
+    display: block;
 }
 
-.Librosmas{
-    font-size: 50px;
-    font-weight: bold;
-    font-style:italic;
-    text-align: center;
-}
-
-main {
-    margin: 1rem;
-    margin-left: 0;
-    border-radius: 2rem;
-    padding: 3rem;
-}
-
-.librosdis{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
-
-.libro-imagen{
-    max-width: 100%;
-    border-radius: 1rem;
-}
-
-.wrapper{
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-}
-
-aside{
-    padding: 2rem;
-    position: sticky;
-    top: 0;
-}
-
-.boton-categoria{
-    font-size: 1rem;
-}
-
-.categoria-size{
-    font-size: 2rem;
-}
-
-.menu{
+.contenedor-carrito{
+    width: 80%;
+    height: auto;
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    margin: 0 auto;
+    padding-bottom: 100px;
 }
 
-.librosdis2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+.productos{
+    width: 50%;
+    display: inline;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: solid 1px;
+    border-color: lightgray;
+}
+
+.productos-contenido{
+    display: block;
+    width: 80%;
+    height: 40%;
+    padding: 20px 24px;
+    border-bottom: solid 1px;
+    border-color: lightgray;
+    margin: 0 auto;
+}
+
+.productos-contenido h3{
+    font-weight: bold;
+}
+
+.detalles{
+    display: flex;
+}
+
+.productos-imagen{
+    width: 124px;
+    height: 95%;
+    display: inline;
+}
+
+.texto-orden{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boton-promo{
+    height: 40px;
+    width: 270px;
+    margin-right: 12px;
+    background: #F0F0F0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 62px;
+}
+
+.boton-aplicar{
+    width: 100px;
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 62px;
+}
+
+.boton-checkout{
+    width: 382px;
+    height: 40px;
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 62px;
+}
+
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover{
+    color: #F0F0F0;
+    text-decoration: none;
+
+}
+
+/* empieza lo del checkout*/
+.contenedor-total{
+    width: 600px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+}
+
+.monto-total{
+    padding-top: 20px;
+    height: 100px;
+    width: 228px;
+    margin-left: 400px;
+    display: block;
+}
+
+.metodos-de-pago{
+    padding: 20px 0;
+    display: flex;
+}
+.metodos-de-pago input[type=radio] {
+    margin: 0px 5px 0px 15px;
+}
+
+input[type='radio'] {
+    accent-color: #232323;
+}
+.metodos-de-pago img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.metodos-de-pago input{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-tarjeta{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form-tarjeta label{
+    font-size: 16px;
+    color: gray;
+}
+
+.form-tarjeta input[type=text]{
+    border: none;
+    border-bottom: solid 1px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.form-tarjeta select{
+    border: none;
+    border-bottom: solid 1px;
+    color: grey;
+    border-color: black;
+}
+
+.boton-realizarPedido{
+    width: 90%;
+    height: 40px;
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 62px;
+    margin-top: 30px;
 }
 
