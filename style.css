@@ -146,3 +146,44 @@ nav li{
     font-size: 16;
     padding-bottom: 20px;
 }
+
+/*
+Aqui empiezan los estilos del registro
+*/
+
+.logo-registro{
+    width: 120px;
+    height: 140px;
+}
+
+.contenedor-registro{
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.encabezado-centrado{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contenido-form{
+    padding-top: 30px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 300px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
