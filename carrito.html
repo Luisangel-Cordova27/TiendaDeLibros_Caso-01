@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comprar</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="franja"></div>
+            <div class="contenedor">
+                <h1><img src="img/logo.png" alt="Logo" class="logo-header"></h1>
+                <nav>
+                    <ul>
+                        <li><a>Comprar</a></li>
+                        <li><a>Rebajas</a></li>
+                        <li><a>Nuevos Productos</a></li>
+                        <li><a href="homepage.html">Pagina Principal</a></li>
+                        <li><a href="carrito.html"><img src="img/carrito.png" style="height: 27px; width: 30px;"></a></li>
+                        <li><a><img src="img/perfiil.png" style="height: 27px; width: 30px;"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="titulo-carrito">Tu Carrito</h1>
+        <div class="contenedor-carrito">
+            <div class="productos">
+                <div class="productos-contenido">
+                    <div  class="detalles">
+                        <img src="img/elprincipecruel.jpg" class="productos-imagen">
+                        <div style="display: block;padding: 15px 15px;">
+                            <h3>El principe cruel</h3>
+                            <h3 style="margin-top: 125px;font-size: 22px;">$212</h3>
+                        </div>
+                        <div style="display: block;align-items: right;">
+                            <img src="img/addButton.png" style="width: 100px; height: 40px; margin-top: 150px;">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="productos-contenido" style="border-bottom: none;">
+                    <div  class="detalles">
+                        <img src="img/ciudadesDePapel.jpg" class="productos-imagen">
+                        <div style="display: block;padding: 15px 15px;">
+                            <h3>Ciudades de papel</h3>
+                            <h3 style="margin-top: 125px;font-size: 22px;">$145</h3>
+                        </div>
+                        <div style="display: block;align-items: right;">
+                            <img src="img/addButton.png" style="width: 100px; height: 40px; margin-top: 150px;">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="productos" style="padding: 20px 24px; height: 420px;">
+                <h2 style="font-weight: bold; font-size: 30px;">Resumen de Orden</h2>
+                <div style="display: flex; padding: 24px 0;">
+                    <p class="texto-orden" style="margin-right: 250px;">Subtotal</p><p class="texto-orden" style="font-weight: bold;">$357</p>
+                </div>
+                <div style="display: flex; padding-bottom: 24px; border-bottom: solid 1px; border-color: lightgrey;">
+                    <p class="texto-orden" style="margin-right: 192px;">Costo del envio</p><p class="texto-orden" style="font-weight: bold;">$150</p>
+                </div>
+                <div style="display: flex; padding: 24px 0;">
+                    <p class="texto-orden" style="margin-right: 272px;">Total:</p><p class="texto-orden" style="font-weight: bold;">$507</p>
+                </div>
+                <div style="display: flex; padding: 24px 0;">
+                    <button class="boton-promo">
+                        <input type="text" placeholder="Add promo code" style="border: none; background: #F0F0F0;">
+                    </button>
+                    <button class="boton-aplicar"><p style="color: #ffffff;">Aplicar</p></button>
+                </div>
+                <button class="boton-checkout"><a href="checkout.html" style="color: #ffffff;">Ir al checkout</a></button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="info-footer">
+                <ul class="listaInfo-footer">
+                    <li><img src="img/logo.png" class="logo-footer"></li>
+                    <li>
+                        <div>
+                            <p class="titulo-footer">ATENCION A CLIENTE</p>
+                            <p>+ 52 3312345678</p>
+                            <p>amazinbooks@gmail.com</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <p>SIGUENOS EN NUESTRAS REDES </p>
+                            <img src="img/logos-redes.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="metodosDePago-footer">
+                <img src="img/metodos-pago.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

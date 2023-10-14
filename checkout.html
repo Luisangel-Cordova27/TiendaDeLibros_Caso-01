@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comprar</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="franja"></div>
+            <div class="contenedor">
+                <h1><img src="img/logo.png" alt="Logo" class="logo-header"></h1>
+                <nav>
+                    <ul>
+                        <li><a>Comprar</a></li>
+                        <li><a>Rebajas</a></li>
+                        <li><a>Nuevos Productos</a></li>
+                        <li><a href="homepage.html">Pagina Principal</a></li>
+                        <li><a href="carrito.html"><img src="img/carrito.png" style="height: 27px; width: 30px;"></a></li>
+                        <li><a><img src="img/perfiil.png" style="height: 27px; width: 30px;"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="titulo-carrito">Check Out</h1>
+        <div class="contenedor-carrito">
+            <div class="productos" style="border: none;">
+                <div class="productos-contenido">
+                    <div  class="detalles">
+                        <img src="img/elprincipecruel.jpg" class="productos-imagen">
+                        <div style="display: block;padding: 15px 15px;">
+                            <h3>El principe cruel</h3>
+                            <h3 style="margin-top: 125px;font-size: 22px;">$212</h3>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="productos-contenido">
+                    <div  class="detalles">
+                        <img src="img/ciudadesDePapel.jpg" class="productos-imagen">
+                        <div style="display: block;padding: 15px 15px;">
+                            <h3>Ciudades de papel</h3>
+                            <h3 style="margin-top: 125px;font-size: 22px;">$145</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="contenedor-total">
+                    <div class="monto-total">
+                        <p class="texto-orden">Subtotal:   $357</p>
+                        <p class="texto-orden">Shipping:   $150</p>
+                        <br><br>
+                        <p class="texto-orden">TOTAL: $507</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="productos" style="padding: 20px 24px; border: none;">
+                <label for="metodo" style="font-weight: bold; font-size: 30px;">Método de Pago</label>
+
+                <div class="metodos-de-pago">
+                    <div class="metodo">
+                        <input type="radio" name="metodo" checked><img src="img/visa.png">
+                    </div>
+
+                    <div class="metodo">
+                        <input type="radio" name="metodo"><img src="img/mastercard.png">
+                    </div>
+
+                    <div class="metodo">
+                        <input type="radio" name="metodo"><img src="img/paypal.png">
+                    </div>
+
+                    <div class="metodo">
+                        <input type="radio" name="metodo"><img src="img/cheque.png">
+                    </div>
+                </div>
+
+                <form class="form-tarjeta">
+                    <label for="numTarjeta">No. de la Tarjeta</label>
+                    <input type="text" name="numTarjeta">
+
+                    <label for="titular">Titular :</label>
+                    <input type="text" name="titular">
+                    
+                    
+                    <div style="display: inline-block; height: 50px;">
+                        <div style="display: inline-block;"">
+                            <label for="expiracion">Expiración: </label>
+                            <select name="expiracion">
+                                <option value="" disabled selected>MM</option>
+                            </select>
+                            <select name="expiracion">
+                                <option value="" disabled selected>AA</option>
+                            </select>
+                        </div>
+                        
+                        
+                        <div style="display: inline-block; margin-left: 50px;">
+                            <label for="cvv" style="margin-top: 10px;">CVV</label>
+                            <input type="text" name="cvv" style=" width: 20%;">
+                        </div>
+                        
+                    </div>
+                    
+                    <label for="servicio-envio" style="font-weight: bold; color: black; font-size: 20px; padding-top: 20px;">Servicio de Envío</label>
+
+                    <div style="display: block;">
+                        <input type="radio" name="servicio-envio" > <label style="display: inline;">DHL</label>
+
+                        <label style="display: inline; margin-left: 150px;" for="servicio-envio">$150</label>
+                    </div>
+                    
+                    <div style="display: block;"">
+                        <input type="radio" name="servicio-envio" ><label style="display: inline;">FEDEX</label>
+
+                        <label style="display: inline; margin-left: 136px;" for="servicio-envio">$200</label>
+                    </div>
+
+                    <button type="submit" class="boton-realizarPedido"><p style="color: #ffffff;">Realizar Pedido</p> </button>
+                    
+                </form>
+                
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="info-footer">
+                <ul class="listaInfo-footer">
+                    <li><img src="img/logo.png" class="logo-footer"></li>
+                    <li>
+                        <div>
+                            <p class="titulo-footer">ATENCION A CLIENTE</p>
+                            <p>+ 52 3312345678</p>
+                            <p>amazinbooks@gmail.com</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <p>SIGUENOS EN NUESTRAS REDES </p>
+                            <img src="img/logos-redes.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="metodosDePago-footer">
+                <img src="img/metodos-pago.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
