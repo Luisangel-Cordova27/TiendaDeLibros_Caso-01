@@ -15,6 +15,7 @@
     width: 62px;
 }
 
+
 .contenedor{
     display: flex;
     align-items: center;
@@ -33,11 +34,115 @@ nav li{
 .mainInfo-homepage{
     width: 100%;
     height: 436px;
+    display: flex;
+    padding: 100px 0px;
 }
 .contenedor-eslogan{
     width: 557px;
     height: 110px;
     border-style: double;
     text-align: center;
-    padding-top: 174px;
+    padding-top: 70px;
+}
+.imagenHomepage{
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.imagen-ventas{
+    width: 90%;
+    padding-top: 50px;
+}
+.boton-comprarAhora{
+    width: 210px;
+    height: 52px;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.contenedor-imagenVentas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.franja-marcas{
+    height: 122px;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.lista-horizontal{
+    display: flex;
+    padding: 40px 0;
+}
+
+.lista-horizontal li{
+    margin: 0 120px;
+}
+
+.titulo{
+    font-size: 50PX; 
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.seccion-libros{
+    height: 600px;
+    width: 100%;
+    border-bottom: solid 1px;
+    border-color: lightgrey;
+}
+
+.contenedor-footer{
+    height: 250px;
+    width: 100%;
+    background-color: #F0F0F0;
+    justify-content: center;
+}
+
+.info-footer{
+    height: 150px;
+    width: 85%;
+    margin-top: 25px;
+    border-bottom: solid 1px;
+    border-color: grey;
+}
+
+.listaInfo-footer{
+    display: flex;
+    padding: 40px 0;
+}
+
+.listaInfo-footer li{
+    margin: 0 120px;
+}
+
+.logo-footer{
+    width: 90px;
+    height: 90px;
+}
+
+.metodosDePago-footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.metodosDePago-footer img{
+    margin-left: auto;
+    margin-right: 200px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.titulo-footer{
+    font-size: 16;
+    padding-bottom: 20px;
 }
