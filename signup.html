@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Amazin</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="franja"></div>
+
+    <div class="contenedor-registro">
+        <div class="encabezado-centrado">
+            <img src='img/logo.png' class='logo-registro'>
+        </div>
+        
+        <div class="contenido-form">
+            <h1 class="titulo">Crear Cuenta</h1>
+            <form action="signup-check.php" method="post">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" name="nombre" class="input-padron" placeholder='Nombre y apellidos'>
+
+                <label for="correo">Correo Electronico</label>
+                <input type="correo" name="correo" class="input-padron" placeholder='example@dominio.com'>
+
+                <label for="pass">Contraseña</label>
+                <input type="password" name="pass" class="input-padron">
+
+                <label for="confirmpass">Confirmar Contraseña</label>
+                <input type="password" name="confirmpass" class="input-padron">
+
+                <button type="submit" class="boton-comprarAhora"><p style="color: white;">Registrarse</p></button>
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
