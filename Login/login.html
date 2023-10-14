@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Inicio de sesion</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="franja"></div>
+            <div class="contenedor">
+                <h1><img src="imagenes/logo.png" alt="Logo" class="logo-header"></h1>
+                <nav>
+                    <ul>
+                        <li>Comprar</li>
+                        <li>Rebajas</li>
+                        <li>Nuevos Productos</li>
+                        <li>Pagina Principal</li>
+                        <li></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="secundario"> 
+        <div class="ImagenUsers">
+            <img src="imagenes/users.png" class="TamUser">
+            <h1 class="Titulo">
+                Login
+            </h1>
+        </div>
+        <form>   
+            <label for="correoelectronico">Correo electronico.</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="correo@example.com">
+
+            <label for="contraseña">Contraseña.</label>
+            <input type="password" id="contraseña" class="input-padron" required placeholder="***********">
+
+            <input type="submit" value="Iniciar sesion" class="IniSes">
+        </form>
+    </main>
+    
+    <footer>
+        <div class="contenedor-footer">
+            <div class="info-footer">
+                <ul class="listaInfo-footer">
+                    <li><img src="imagenes/logo.png" class="logo-footer"></li>
+                    <li>
+                        <div>
+                            <p class="titulo-footer">ATENCION A CLIENTE</p>
+                            <p>+ 52 3312345678</p>
+                            <p>amazinbooks@gmail.com</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <p>SIGUENOS EN NUESTRAS REDES </p>
+                            <img src="imagenes/logos-redes.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="metodosDePago-footer">
+                <img src="imagenes/metodos-pago.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

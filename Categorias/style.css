@@ -1,0 +1,165 @@
+.contenedor-encabezado{
+    height: 133px;
+    width: 100%;
+    margin: 0;
+}
+
+.franja{
+    height: 38px;
+    width: 100%;
+    background-color:black;
+}
+
+.contenedor-footer{
+    height: 250px;
+    width: 100%;
+    background-color: #F0F0F0;
+    justify-content: center;
+}
+
+.info-footer{
+    height: 150px;
+    width: 85%;
+    margin-top: 25px;
+    border-bottom: solid 1px;
+    border-color: grey;
+}
+
+.listaInfo-footer{
+    display: flex;
+    padding: 40px 0;
+}
+
+.listaInfo-footer li{
+    margin: 0 120px;
+}
+
+.logo-footer{
+    width: 90px;
+    height: 90px;
+}
+
+.metodosDePago-footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.metodosDePago-footer img{
+    margin-left: auto;
+    margin-right: 200px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.titulo-footer{
+    font-size: 16;
+    padding-bottom: 20px;
+}
+
+.Categorias{
+    font-size: 50px;
+    font-weight: bold;
+    font-style:italic;
+}
+
+.Librosmas{
+    font-size: 50px;
+    font-weight: bold;
+    font-style:italic;
+    text-align: center;
+}
+
+.contenedor-categorias{
+    width: 557px;
+    height: 110px;
+    border-style: double;
+    text-align: center;
+    padding-top: -10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.Brom{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background: rgb(248, 247, 247);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Bthr{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background: rgb(248, 247, 247);
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Bayu
+{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background: rgb(248, 247, 247);
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Bnov{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background: rgb(248, 247, 247);
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Bfan{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background: rgb(248, 247, 247);
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Bter{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    background: rgb(248, 247, 247);
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
