@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Administrador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Inicio del encabezado-->
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="franja"></div>
+            <div class="contenedor">
+                <h1><img src="imagenes/logo.png" alt="Logo" class="logo-header"></h1>
+                <nav>
+                    <ul>
+                        <li>Comprar</li>
+                        <li>Rebajas</li>
+                        <li>Nuevos Productos</li>
+                        <li>Pagina Principal</li>
+                        <li></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Fin del encabezado-->
+
+    <div class="wrapper">
+        <br>
+        <aside>
+            <div class="wrapper">
+                <header>
+                    <br><h1 class="cate">Categorias</h1>
+                </header><br><br>
+                <nav>
+                    <ul class="menu">
+                        <form>
+                            <br><br>
+                            
+                            <h1 class="Info">Información basica</h1>
+                            <div class="franja_p"></div>
+                            <br><br> 
+                            <label for="Nombre del producto">Nomde del producto:</label><br><br>
+                            <input type="text" id="Nombre_Producto" class="input-padron"><br>
+                
+                            <label for="Categoria">Categorias:</label>
+                            <input type="text" id="Categorias" class="input-padron"><br><br>
+                            <div class="franja_p"></div>
+
+                            <!--Este aun no se como hacerlo, es el de disponibilidad desplegable-->
+                            <br><label for="Disponibilidad">Disponibilidad:</label><br><br>
+                            <input type="text" id="Nombre_Producto" class="input-padron"><br>
+                
+                            <label for="ID">ID:</label><br><br>
+                            <input type="text" id="id" class="input-padron"><br>
+
+                            <label for="Cantidad de producto">Cantidad de producto:</label><br>
+                            <input type="text" id="Can_Pro" class="input-padron"><br><br>
+
+                            <div class="franja_p"></div><br><br>
+                
+                            <label for="Precio">Precio:</label><br>
+                            <input type="text" id="Precio" class="input-padron"><br>
+                
+                            <label for="Precio promocional">Precio promocional:</label><br>
+                            <input type="text" id="Precio_promo" class="input-padron"><br><br>
+
+                            <div class="franja_p"></div><br><br>
+
+                            <label for="Descripcion">Descripcion:</label><br>
+                            <input type="text" id="Descripcion" class="input-padron"><br>
+                
+                            <label for="Autor">Autor:</label><br>
+                            <input type="text" id="Autor" class="input-padron"><br>
+
+                            <label for="Editorial">Editorial:</label><br>
+                            <input type="text" id="Editorial" class="input-padron"><br>
+                
+                            <label for="Sinopsis">Sinopsis:</label><br>
+                            <input type="text" id="Sinopsis" class="input-padron"><br>
+
+                            <input type="submit" value="Agregar producto" class="Agregar_Producto">
+                        </form>
+                    </ul>
+                </nav>
+        </aside>
+
+        <!--Display de imagenas de libros-->
+        <main>
+            <h2 class="Galeria">Galeria de imagenes</h2>
+            <!--Se dejan los espacions en blanco-->
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+            <div class="img5"></div>
+            <div class="img6"></div>
+            <div class="img4"></div>
+            <input type="submit" value="Agregar imagen" class="BImagen">
+        </main>
+
+    </div>
+
+    <!--Inicio de la parte de abajo--> 
+    <footer>
+        <div class="contenedor-footer">
+            <div class="info-footer">
+                <ul class="listaInfo-footer">
+                    <li><img src="imagenes/logo.png" class="logo-footer"></li>
+                    <li>
+                        <div>
+                            <p class="titulo-footer">ATENCION A CLIENTE</p>
+                            <p>+ 52 3312345678</p>
+                            <p>amazinbooks@gmail.com</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <p>SIGUENOS EN NUESTRAS REDES </p>
+                            <img src="imagenes/logos-redes.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="metodosDePago-footer">
+                <img src="imagenes/metodos-pago.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <!--Fin de la parte de abajo-->
+</body>
+</html>
