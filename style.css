@@ -430,3 +430,129 @@ fue rerciclada en el de categorias y el de estadisticas*/
     margin-bottom: 20px;
     padding-top: 1rem;
 }
+/*parte moy*/
+.Galeria{
+    width: 247px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 192px;
+    left: 620px;
+    font-family: Allerta;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.main {
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.img1{
+    width: 185px;
+    height: 268px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 285px;
+    left: 648px;
+    overflow: hidden;
+}
+
+.img2 {
+    width: 185px;
+    height: 268px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 285px;
+    left: 884px;
+    overflow: hidden;
+}
+
+.img3 {
+    width: 185px;
+    height: 268px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 285px;
+    left: 1120px;
+    overflow: hidden;
+}
+
+.img5 {
+    width: 185px;
+    height: 268px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 587px;
+    left: 884px;
+    overflow: hidden;
+}
+
+.img6 {
+    width: 185px;
+    height: 268px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 587px;
+    left: 1120px;
+    overflow: hidden;
+}
+.img4 {
+    width: 185px;
+    height: 268px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 587px;
+    left: 648px;
+    overflow: hidden;
+}
+ 
+/*Boton para "agregar" las imagenes*/
+.BImagen{
+    width: 190px;
+    height: 53px;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 165px;
+    left: 1120px;
+    color: white;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.BImagen:hover{
+    background: rgb(63, 63, 63);
+    transform: scale(1.2);
+}
+
+.Agregar_Producto{
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Agregar_Producto:hover{
+    background: rgb(63, 63, 63);
+    transform: scale(1.2);
+}
