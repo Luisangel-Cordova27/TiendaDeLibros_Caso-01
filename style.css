@@ -423,3 +423,10 @@ fue rerciclada en el de categorias y el de estadisticas*/
     max-width: 50%;
     border-radius: 1rem;
 }
+/*Necesario para perfil*/
+.entrada-perfil{
+    border: none;
+    border-bottom: solid 1px;
+    margin-bottom: 20px;
+    padding-top: 1rem;
+}
